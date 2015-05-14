@@ -286,6 +286,7 @@ select {
 .du-filter-type {
 	text-align: right;
 	font-size: 0;
+	z-index: 2;
 }
 .du-filter-type:before {
 	content: '';
@@ -617,6 +618,16 @@ select {
 
 .du-thumbnail-wide .du-filter-type {
 	left: 11%;
+}
+.du-thumbnail-wide .du-filter-type:after {
+	content: '';
+	border-left: 1px solid #cee3e5;
+	position: absolute;
+	top: 105%;
+	left: 50%;
+	width: 0;
+	height: 15px;
+	display: block;
 }
 .du-thumbnail-wide {
 	background: linear-gradient(to top, rgba(0,0,0,.7), transparent);
