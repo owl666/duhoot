@@ -251,7 +251,7 @@ select {
 	text-decoration: none;
 	font-size: 12px;
 	font-weight: 600;
-	margin-left: 20px;
+	margin-right: 20px;
 }
 .du-filter-items a:hover {
 	color: #e94e38;
@@ -385,7 +385,10 @@ select {
 }
 
 /* Items */
-
+.du-container-item-row {
+	padding-left: 30px;
+	padding-right: 30px;
+}
 .du-item-row .ba-grid > [class*="ba-width-"] {
 	float: left;
 	padding-left: 26px;
@@ -470,7 +473,7 @@ select {
 	color: #566375;
 	font-weight: 600;
 	margin-bottom: 15px;
-	height: 36px;
+	min-height: 36px;
 }
 .du-title {
 	text-transform: uppercase;
@@ -508,7 +511,7 @@ select {
 	left: 50%;
 	transform: translateX(-50%) scale(.5);
 	opacity: 0;
-	transition: opacity .6s, scale .6s, background .5s;
+	transition: opacity .6s, transform .6s, background .5s;
 	font-size: 12px;
 	font-weight: 600;
 	color: #fff;
@@ -524,7 +527,7 @@ select {
 .du-thumbnail:hover .du-more {
 	transform: translateX(-50%) scale(1);
 	opacity: 1;
-	transition: opacity .6s, scale .6s;
+	transition: opacity .6s, transform .6s;
 }
 .du-thumbnail:hover .du-more:hover {
 	background: rgba(255, 255, 255, 0.40);
