@@ -31,7 +31,6 @@ strong, b{
 }
 body{
 	font: 14px/1.4 "Gotham", Arial, sans-serif;
-	min-width: 1020px;
 	color: #566375;
 }
 h2 {
@@ -90,7 +89,7 @@ button {
 	transition: color .1s ease-in, border-color .1s ease-in, background-color .1s ease-in, opacity .1s ease-in;
 }
 .ba-container{
-	width: 1020px;
+	max-width: 1020px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -137,6 +136,7 @@ button {
 .du-menu a{
 	display: block;
 	font-size: 14px;
+	font-weight: 600;
 	line-height: 74px;
 	height: 74px;
 	text-transform: uppercase;
