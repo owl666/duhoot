@@ -32,6 +32,7 @@ strong, b{
 body{
 	font: 14px/1.4 "Gotham", Arial, sans-serif;
 	color: #566375;
+	background: #F3F1F2;
 }
 h2 {
 	font-family: "Gotham", Arial, sans-serif;
@@ -87,6 +88,13 @@ button {
 	-webkit-transition: color .1s ease-in, border-color .1s ease-in, background-color .1s ease-in, opacity .1s ease-in;
 	-moz-transition: color .1s ease-in, border-color .1s ease-in, background-color .1s ease-in, opacity .1s ease-in;
 	transition: color .1s ease-in, border-color .1s ease-in, background-color .1s ease-in, opacity .1s ease-in;
+}
+a {
+	color: #566375;
+	font-weight: 600;
+}
+a:hover {
+	color: #E94E38;
 }
 .ba-container{
 	max-width: 1020px;
@@ -661,10 +669,130 @@ select {
 	border-radius: 50%;
 	padding: 28px 20px;
 }
-.du-item-body-wide a {
-	color: #566375;
-	font-weight: 600;
-}
 .du-item-body-wide .du-title {
 	color: #566375;
+}
+
+/* Learn More Row */
+.du-load-more-row .ba-container {
+	border-bottom: 1px solid #e2dee0;
+	padding-bottom: 40px;
+}
+.du-load-more-row,
+.du-load-more-row a {
+	font-size: 18px;
+}
+
+/* Offers */
+.du-offers {
+	margin-bottom: 145px;
+}
+.du-offers .ba-grid [class*="ba-width-"] {
+	margin-bottom: 20px;
+}
+.du-container-offers {
+	padding-left: 110px;
+	padding-right: 110px;
+}
+.du-offers h2 {
+	font-size: 22px;
+	padding-top: 90px;
+	margin-bottom: 0;
+}
+.du-offers p {
+	color: #566375;
+}
+.du-offers .byline {
+	color: #98A8A9;
+	font-size: 16px;
+}
+.du-offers header {
+	margin-bottom: 70px;
+}
+.du-offers-row {
+	text-align: center;
+	margin-bottom: 35px;
+}
+[class*="du-offers-filter-"] {
+	box-shadow: 0 0 0 2px #9dacad;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	margin-right: 60px;
+	position: relative;
+}
+[class*="du-offers-filter-"]:last-child {
+	margin-right: 0;
+}
+[class*="du-offers-filter-"]:after {
+	content: '';
+	width: 52px;
+	height: 2px;
+	background: #e2dee0;
+	position: absolute;
+	top: 50%;
+	right: -59%;
+}
+[class*="du-offers-filter-"]:last-child:after {
+	content: '';
+	width: 0;
+	height: 0;
+}
+.du-offers-filter-rent {
+	background: url('../img/offers/rent.png') 50% 50% no-repeat;
+}
+.du-offers-filter-rent:hover {
+	box-shadow: 0 0 0 2px #1baf5d;
+	background: url('../img/offers/h-rent.png') 50% 50% no-repeat;
+}
+.du-offers-filter-people {
+	background: url('../img/offers/people.png') 50% 50% no-repeat;
+}
+.du-offers-filter-people:hover {
+	box-shadow: 0 0 0 2px #6375ff;
+	background: url('../img/offers/h-people.png') 50% 50% no-repeat;
+}
+.du-offers-filter-education {
+	background: url('../img/offers/education.png') 50% 50% no-repeat;
+}
+.du-offers-filter-education:hover {
+	box-shadow: 0 0 0 2px #F84D58;
+	background: url('../img/offers/h-education.png') 50% 50% no-repeat;
+}
+.du-offers-filter-music {
+	background: url('../img/offers/music.png') 50% 50% no-repeat;
+}
+.du-offers-filter-music:hover {
+	box-shadow: 0 0 0 2px #f19e1f;
+	background: url('../img/offers/h-music.png') 50% 50% no-repeat;
+}
+.du-offers-filter-travel {
+	background: url('../img/offers/travel.png') 50% 50% no-repeat;
+}
+.du-offers-filter-travel:hover {
+	box-shadow: 0 0 0 2px #88449c;
+	background: url('../img/offers/h-travel.png') 50% 50% no-repeat;
+}
+
+/* Reality section */
+.du-reality h2 {
+	color: #1baf5d;
+	padding-top: 0;
+	margin-bottom: 40px;
+}
+.du-reality-icon {
+	display: inline-block;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	float: left;
+	width: 62px;
+	height: 62px;
+	margin-right: 35px;
+	border-radius: 50%;
+	background-color: #1db05e;
+}
+.du-reality-text {
+	padding-left: 97px;
 }
