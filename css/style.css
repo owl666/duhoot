@@ -685,7 +685,7 @@ select {
 
 /* Offers */
 .du-offers {
-	margin-bottom: 145px;
+	margin-bottom: 125px;
 }
 .du-offers .ba-grid [class*="ba-width-"] {
 	margin-bottom: 20px;
@@ -795,4 +795,106 @@ select {
 }
 .du-reality-text {
 	padding-left: 97px;
+}
+
+/* Footer */
+.du-footer {
+	background: url('../img/footer-bg.jpeg');
+	background-size: cover;
+}
+.du-footer-form {
+	position: relative;
+}
+.du-footer h2 {
+	color: #fff;
+	padding-top: 60px;
+	margin-bottom: 50px;
+	font-size: 24px;
+}
+.du-footer input.du-footer-email {
+	height: 64px;
+	font: 400 18px/56px "Gotham", Arial, sans-serif;
+	padding: 0 70px;
+	color: #fff;
+	border-color: rgba(255, 255, 255, .2);
+	background-color: rgba(255, 255, 255, .1);
+	width: 100%;
+	border-radius: 32px;
+}
+.du-footer input.du-footer-email:focus {
+	border-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .3);
+}
+.du-envelope {
+	position: absolute;
+	color: #fff;
+	font-size: 18px;
+	top: 50%;
+	left: 9%;
+	transform: translate(0,-50%);
+}
+.du-footer-form button {
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,1,.15);
+	box-shadow: 0 2px 0 #c1412e;
+	background: #E94E38;
+	height: 52px;
+	line-height: 52px;
+	padding: 0 33px;
+	position: absolute;
+	top: 6px;
+	right: 7px;
+}
+.du-footer-form button:hover {
+	background: #ff553b;
+}
+.du-footer-form button:active {
+	top: 7px;
+	box-shadow: 0 1px 0 #c1412e;
+}
+
+.du-footer-widgets {
+	padding-bottom: 65px;
+}
+
+.du-footer .ba-container:first-child {
+	padding-bottom: 60px;
+	border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+.du-footer .ba-grid h3 {
+	padding-top: 45px;
+	text-decoration: underline;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.du-footer-list {
+	list-style: none;
+}
+.du-footer-list li {
+	color: #c0bebc;
+	line-height: 1.5;
+}
+.du-footer .ba-container .ba-grid a {
+	color: #fff;
+	margin-right: 20px;
+}
+a i.fa-facebook:hover {
+	color: #4862A3;
+}
+a i.fa-twitter:hover {
+	color: #55ACEE;
+}
+a i.fa-google-plus:hover {
+	color: #DA3838;
+}
+a i.fa-youtube:hover {
+	color: #CD1F21;
+}
+.du-footer .ba-container .ba-grid p {
+	padding-top: 56px;
+	color: #c0bebc;
 }
