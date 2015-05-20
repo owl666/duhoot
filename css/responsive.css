@@ -30,6 +30,9 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 }
 
 @media (max-width: 959px) {
+	.du-header .ba-container {
+		padding-left: 0;
+	}
 	.du-menu,
 	.du-menu-overlay {
 		position: fixed;
@@ -82,7 +85,8 @@ $breakpoint-xlarge: 1220px; // For width more than 1220px
 		background: #fff;
 	}
 	.du-login {
-		margin-right: -20px;;
+		margin-right: -20px;
+		padding: 0 30px;
 	}
 	.du-login span {
 		display: none;
