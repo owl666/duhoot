@@ -1,6 +1,13 @@
 /**
  * Created by panda_000 on 16.05.2015.
  */
+jQuery(function($){
+   $('.du-menu-toggle, .du-menu-overlay').click(function(){
+      //alert("It's Alive!");
+       $('body').toggleClass('du-menu-open');
+   });
+});
+
 
 equalheight = function(container){
 

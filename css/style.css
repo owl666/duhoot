@@ -123,7 +123,8 @@ a:hover {
 }
 .du-search,
 .du-login,
-.du-logo{
+.du-logo,
+.du-menu-toggle {
 	height: 74px;
 	line-height: 74px;
 	color: #fff;
@@ -134,6 +135,9 @@ a:hover {
 	padding: 0 40px;
 	background: #E94E38;
 	font-size: 14px;
+}
+.du-login:hover {
+	color: #e2dee0;
 }
 .du-login .fa{
 	font-size: 18px;
